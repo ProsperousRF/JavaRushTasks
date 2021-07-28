@@ -15,6 +15,9 @@
 5. В чем отличие TreeMap и HashMap?
    > https://www.javatpoint.com/difference-between-hashmap-and-treemap
 6. Зачем нужно писать в таком коде ArrayList<?>
+   > ArrayList каких то типов, которые станут известны только в момент выполнения программы.
+   > 
+   > http://javaway.info/zachem-v-arraylist-nuzhno-pisat/
 7. Как узнать максимальное значение int?
 8. Как узнать минимальное значение byte?
 9. Как преобразовать число в 16-тиричную строку (123->»7B»)?
