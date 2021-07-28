@@ -13,6 +13,7 @@
    > Коротко - через рефлексию.
    > http://javaway.info/kak-opredelit-soderzhit-li-peredannyj-obekt-opredelyonnyj-metod/
 5. В чем отличие TreeMap и HashMap?
+   > https://www.javatpoint.com/difference-between-hashmap-and-treemap
 6. Зачем нужно писать в таком коде ArrayList<?>
 7. Как узнать максимальное значение int?
 8. Как узнать минимальное значение byte?
