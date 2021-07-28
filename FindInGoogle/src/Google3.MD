@@ -8,6 +8,7 @@
 2. Как отсортировать список строк в обратном алфавитном порядке?
    > Collections.sort(listStrings, Collections.reverseOrder());
 3. Как отправить email из программы Java?
+   > https://javarush.ru/groups/posts/1226-kak-otpravitjh-pisjhmo-iz-java-prilozhenija-s-primerom
 4. Как определить, содержит ли переданный объект определенный метод?
 5. В чем отличие TreeMap и HashMap?
 6. Зачем нужно писать в таком коде ArrayList<?>
