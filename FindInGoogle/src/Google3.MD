@@ -10,6 +10,8 @@
 3. Как отправить email из программы Java?
    > https://javarush.ru/groups/posts/1226-kak-otpravitjh-pisjhmo-iz-java-prilozhenija-s-primerom
 4. Как определить, содержит ли переданный объект определенный метод?
+   > Коротко - через рефлексию.
+   > http://javaway.info/kak-opredelit-soderzhit-li-peredannyj-obekt-opredelyonnyj-metod/
 5. В чем отличие TreeMap и HashMap?
 6. Зачем нужно писать в таком коде ArrayList<?>
 7. Как узнать максимальное значение int?
