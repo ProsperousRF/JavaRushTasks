@@ -2,7 +2,7 @@
 
 https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html
 
-```Java
+```java
 class OuterClass {
     //...
     class InnerClass {
@@ -25,16 +25,27 @@ class OuterClass {
 ---
 
 **Terminology:** Nested classes are divided into two categories: non-static and static. 
+
 Non-static nested classes are called *inner classes*. 
+
 Nested classes that are declared static are called *static nested classes*.
 
 ---
 
 
-<h2>Local and Anonymous Classes</h2>
-<p>There are two additional types of inner classes. You can declare an inner class within the body of a method. These classes are known as
-<a class="TutorialLink" target="_top" href="localclasses.html">local classes</a>. You can also declare an inner class within the body of a method without naming the class. These classes are known as
-<a class="TutorialLink" target="_top" href="anonymousclasses.html">anonymous classes</a>.</p>
+## Local and Anonymous Classes
+
+There are two additional types of inner classes. 
+
+You can declare an inner class within the body of a method. <br>
+These classes are known as
+<a class="TutorialLink" target="_top" href="localclasses.html">local classes</a>. 
+
+You can also declare an inner class within the body of a method without naming the class.<br> 
+These classes are known as
+<a class="TutorialLink" target="_top" href="anonymousclasses.html">anonymous classes</a>.
+
+---
 
 Вложенные внутренние классы - Nested classes
 - Non-static nested classes (inner classes)
