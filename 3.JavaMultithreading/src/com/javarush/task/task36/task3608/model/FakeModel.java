@@ -10,19 +10,23 @@ import java.util.List;
  */
 public class FakeModel implements Model{
 
-  private ModelData modelData = new ModelData();
+    private ModelData modelData = new ModelData();
 
-  @Override
-  public ModelData getModelData() {
-    return modelData;
-  }
+    @Override
+    public ModelData getModelData() {
+        return modelData;
+    }
 
-  @Override
-  public void loadUsers() {
-    List<User> fakeUsers = new ArrayList<>();
-    fakeUsers.add(new User("U1", 1, 1));
-    fakeUsers.add(new User("U2", 2, 1));
+    @Override
+    public void loadUsers() {
+        List<User> users = new ArrayList<>();
+        users.add(new User("A", 1L, 1));
+        users.add(new User("B", 2L, 1));
+        modelData.setUsers(users);
+    }
 
-    modelData.setUsers(fakeUsers);
-  }
+    @Override
+    public void loadDeletedUsers() {
+        throw new UnsupportedOperationException();
+    }
 }
