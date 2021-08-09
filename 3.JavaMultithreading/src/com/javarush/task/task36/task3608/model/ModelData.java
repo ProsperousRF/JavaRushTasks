@@ -4,14 +4,19 @@ import com.javarush.task.task36.task3608.bean.User;
 
 import java.util.List;
 
-/**
- * @author Stanislav Rakitov
- */
 public class ModelData {
 
     private List<User> users;
-    private boolean displayDeletedUserList;
     private User activeUser;
+    private boolean displayDeletedUserList;
+
+    public List<User> getUsers() {
+        return users;
+    }
+
+    public void setUsers(List<User> users) {
+        this.users = users;
+    }
 
     public User getActiveUser() {
         return activeUser;
@@ -27,13 +32,5 @@ public class ModelData {
 
     public void setDisplayDeletedUserList(boolean displayDeletedUserList) {
         this.displayDeletedUserList = displayDeletedUserList;
-    }
-
-    public List<User> getUsers() {
-        return users;
-    }
-
-    public void setUsers(List<User> users) {
-        this.users = users;
     }
 }
