@@ -49,6 +49,14 @@ public class MainModel implements Model {
         modelData.setUsers(users);
     }
 
+    @Override
+    public void changeUserData(String name, long id, int level) {
+        userService.createOrUpdateUser(name, id, level);
+        List<User> users = getAllUsers();
+        //refresh model data
+        modelData.setUsers(users);
+    }
+
     private List<User> getAllUsers() {
         //model should contain all business logic in the methods
         List<User> allUsers = userService.getUsersBetweenLevels(1, 100);
