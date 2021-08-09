@@ -13,11 +13,11 @@ public class UsersView implements View{
 
     @Override
     public void refresh(ModelData modelData) {
-        System.out.println("All users:");
+        System.out.println("All " + (modelData.isDisplayDeletedUserList() ? "deleted " : "") + "users:");
         for (User user : modelData.getUsers()) {
             System.out.println("\t" + user);
         }
-        System.out.println("==================================================");
+        System.out.println("===================================================");
     }
 
     @Override
