@@ -5,10 +5,7 @@ import com.javarush.task.task36.task3608.bean.User;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author Stanislav Rakitov
- */
-public class FakeModel implements Model{
+public class FakeModel implements Model {
 
     private ModelData modelData = new ModelData();
 
@@ -32,6 +29,11 @@ public class FakeModel implements Model{
 
     @Override
     public void loadUserById(long userId) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public void deleteUserById(long id) {
         throw new UnsupportedOperationException();
     }
 }

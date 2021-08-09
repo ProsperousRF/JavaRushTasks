@@ -4,7 +4,6 @@ import com.javarush.task.task36.task3608.model.Model;
 import com.javarush.task.task36.task3608.view.EditUserView;
 import com.javarush.task.task36.task3608.view.UsersView;
 
-/** @author Stanislav Rakitov */
 public class Controller {
     //controller cannot contain business logic, only operate with views
 
@@ -37,5 +36,10 @@ public class Controller {
     public void onOpenUserEditForm(long userId) {
         model.loadUserById(userId);
         editUserView.refresh(model.getModelData());
+    }
+
+    public void onUserDelete(long id) {
+        model.deleteUserById(id);
+        usersView.refresh(model.getModelData());
     }
 }
