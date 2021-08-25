@@ -20,6 +20,26 @@ https://www.tutorialcup.com/java/threadgroup-in-java.htm
 https://www.geeksforgeeks.org/java-lang-threadgroup-class-java/
 
 2. Что такое ThreadPool и зачем он нужен?
+``` 
+What is a Thread Pool
+In simple words, Thread Pool is a group of worker threads. 
+Worker threads are waiting for the task( or job). It can be reused many times.   
+
+Why do we need Thread Pool
+Creating a new thread in java is an expensive operation since it requires 
+an Operating System to provide resources needed for the thread. 
+In a large-scale application, there will be a significant memory management 
+overhead for allocating and deallocating many thread objects. 
+Using worker threads in the application minimizes the overhead 
+due to thread creation. 
+As a result, we use Thread Pool for large-scale operations.
+```
+https://www.youtube.com/watch?v=ZcKt5FYd3bU
+
+https://www.baeldung.com/thread-pool-java-and-guava
+
+https://javahungry.blogspot.com/2020/09/thread-pool-example.html
+
 3. Что такое ThreadPoolExecutor и зачем он нужен?
 4. Что такое Concurrency?
 5. Что такое «атомарные типы» в Java?
