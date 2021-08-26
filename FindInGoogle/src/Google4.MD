@@ -41,6 +41,16 @@ https://www.baeldung.com/thread-pool-java-and-guava
 https://javahungry.blogspot.com/2020/09/thread-pool-example.html
 
 3. Что такое ThreadPoolExecutor и зачем он нужен?
+```
+ThreadPoolExecutor – реализация ExecutorService. 
+Он выполняет переданную задачу (Callable или Runnable), используя одну из 
+внутренних доступных нитей из пула. 
+Пул потоков содержит в себе ThreadPoolExecutor, который может содержать 
+изменяющееся число нитей. 
+Число нитей в пуле задается с помощью corePoolSize и maximumPoolSize.
+``` 
+https://www.youtube.com/watch?v=nU3Yf8UVWVc&t=572s
+
 4. Что такое Concurrency?
 5. Что такое «атомарные типы» в Java?
 6. Зачем нужен класс ThreadLocal?
