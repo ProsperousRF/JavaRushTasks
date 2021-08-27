@@ -52,6 +52,12 @@ ThreadPoolExecutor – реализация ExecutorService.
 https://www.youtube.com/watch?v=nU3Yf8UVWVc&t=572s
 
 4. Что такое Concurrency?
+```
+Concurrency это работа с многопоточным кодом.
+```
+
+[На русском стековерфлоу](https://ru.stackoverflow.com/questions/448111/%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-concurrency-%D0%B8-%D0%BA%D0%B0%D0%BA%D0%B8%D0%B5-%D0%B5%D1%81%D1%82%D1%8C-concurrency-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D1%8B)
+
 5. Что такое «атомарные типы» в Java?
 6. Зачем нужен класс ThreadLocal?
 7. Что такое модификатор volatile?
