@@ -72,6 +72,19 @@ http://java-online.ru/concurrent-atomic.xhtml
 https://www.youtube.com/watch?v=lz7sLbZAMs8
 
 6. Зачем нужен класс ThreadLocal?
+```
+Класс java.lang.ThreadLocal<T> используется для хранения переменных, которые должны быть 
+доступны для всего потока. Фактически это нечто вроде ещё одной области видимости переменных. 
+Класс ThreadLocal  имеет методы get  и set, которые позволяют получить текущее значение и 
+установить новое значение.   
+```
+
+https://urvanov.ru/2017/04/02/threadlocal-%D0%B2-java/
+
+https://www.baeldung.com/java-threadlocal
+
+
+
 7. Что такое модификатор volatile?
 8. Что такое Executor?
 9. Что такое ExecutorService?
