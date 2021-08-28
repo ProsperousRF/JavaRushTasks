@@ -59,6 +59,18 @@ Concurrency это работа с многопоточным кодом.
 [На русском стековерфлоу](https://ru.stackoverflow.com/questions/448111/%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-concurrency-%D0%B8-%D0%BA%D0%B0%D0%BA%D0%B8%D0%B5-%D0%B5%D1%81%D1%82%D1%8C-concurrency-%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D1%8B)
 
 5. Что такое «атомарные типы» в Java?
+```
+Пакет java.util.concurrent.atomic содержит много полезных классов для выполнения атомарных операций. 
+Операция называется атомарной, если её можно безопасно выполнять при параллельных вычислениях в 
+нескольких потоках, не используя при этом ни блокировок, ни синхронизацию synchronized.  
+```
+
+https://tproger.ru/translations/java8-concurrency-tutorial-3/
+
+http://java-online.ru/concurrent-atomic.xhtml
+
+https://www.youtube.com/watch?v=lz7sLbZAMs8
+
 6. Зачем нужен класс ThreadLocal?
 7. Что такое модификатор volatile?
 8. Что такое Executor?
