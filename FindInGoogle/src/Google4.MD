@@ -65,6 +65,8 @@ Concurrency это работа с многопоточным кодом.
 нескольких потоках, не используя при этом ни блокировок, ни синхронизацию synchronized.  
 ```
 
+https://docs.oracle.com/javase/tutorial/essential/concurrency/atomic.html
+
 https://tproger.ru/translations/java8-concurrency-tutorial-3/
 
 http://java-online.ru/concurrent-atomic.xhtml
@@ -86,6 +88,18 @@ https://www.baeldung.com/java-threadlocal
 
 
 7. Что такое модификатор volatile?
+
+```
+Ключевое слово volatile указывается для поля для того, чтобы указать компилятору, что все 
+операции присвоения этой переменной и все операции чтения из неё должны быть атомарными. 
+```
+
+https://javarush.ru/groups/posts/1998-upravlenie-potokami-metodih-volatile-i-yield
+
+https://docs.oracle.com/javase/tutorial/essential/concurrency/atomic.html
+
+
+
 8. Что такое Executor?
 9. Что такое ExecutorService?
 10. Зачем нужен ScheduledExecutorService?
