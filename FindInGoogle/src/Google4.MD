@@ -101,5 +101,13 @@ https://docs.oracle.com/javase/tutorial/essential/concurrency/atomic.html
 
 
 8. Что такое Executor?
+```
+Executors - Механизмы создания пулов потоков и планирования работы асинхронных задач
+```
+
+https://www.youtube.com/watch?v=vVyjcJLFNWQ
+
+http://java-online.ru/concurrent.xhtml
+
 9. Что такое ExecutorService?
 10. Зачем нужен ScheduledExecutorService?
