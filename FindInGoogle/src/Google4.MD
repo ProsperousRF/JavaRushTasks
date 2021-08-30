@@ -117,4 +117,13 @@ ExecutorService — представляет собой интерфейс, им
 
 http://java-online.ru/concurrent.xhtml
 
+
 10. Зачем нужен ScheduledExecutorService?
+
+```
+Интерфейс ScheduledExecutorService расширяет свойства ExecutorService для поддержки планирования 
+потоков исполнения. 
+```
+
+http://java-online.ru/concurrent-executor.xhtml
+
