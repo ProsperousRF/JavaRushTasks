@@ -110,4 +110,11 @@ https://www.youtube.com/watch?v=vVyjcJLFNWQ
 http://java-online.ru/concurrent.xhtml
 
 9. Что такое ExecutorService?
+
+```
+ExecutorService — представляет собой интерфейс, имплементация которого используется для запуска потоков. 
+```
+
+http://java-online.ru/concurrent.xhtml
+
 10. Зачем нужен ScheduledExecutorService?
