@@ -1,5 +1,9 @@
 package com.javarush.task.task29.task2909.human;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class Human {
     public static int nextId = 0;
     private int id;
@@ -16,6 +20,7 @@ public class Human {
     public static final int THIRD = 3;
     public static final int FOURTH = 4;
     private int bloodGroup;
+    private List<Human> children = new ArrayList<>();
 
     public void setBloodGroup(int code) {
         bloodGroup = code;
@@ -50,6 +55,25 @@ public class Human {
     public int getCourse() {
         return course;
     }
+
+    public List<Human> getChildren() {
+        return Collections.unmodifiableList(children);
+//        return children;
+    }
+
+
+//    public void setChildren(List<Human> children) {
+//        this.children = children;
+//    }
+
+    public void addChild(Human child){
+        children.add(child);
+    }
+
+    public void removeChild(Human child){
+        children.remove(child);
+    }
+
 
     public void live() {
         if (isSoldier)
