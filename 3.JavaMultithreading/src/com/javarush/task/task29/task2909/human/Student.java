@@ -3,15 +3,16 @@ package com.javarush.task.task29.task2909.human;
 import java.util.Date;
 
 public class Student extends Human {
+    protected boolean isSoldier;
     private double averageGrade;
     private String university;
     private Date beginningOfSession;
     private Date endOfSession;
 
     public Student(String name, int age, double averageGrade) {
-        super(false);
-        this.name = name;
-        this.age = age;
+        super(name, age);
+//        this.name = name;
+//        this.age = age;
         this.averageGrade = averageGrade;
     }
 
@@ -63,5 +64,8 @@ public class Student extends Human {
 
     public double getAverageGrade() {
         return averageGrade;
+    }
+
+    public void fight() {
     }
 }

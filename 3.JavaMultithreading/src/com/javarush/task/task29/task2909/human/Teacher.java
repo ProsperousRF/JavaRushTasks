@@ -1,13 +1,14 @@
 package com.javarush.task.task29.task2909.human;
 
 public class Teacher extends Human {
+    protected boolean isSoldier;
     private int numberOfStudents;
     private String university;
 
     public Teacher(String name, int age, int numberOfStudents) {
-        super(false);
-        this.name = name;
-        this.age = age;
+        super(name, age);
+//        this.name = name;
+//        this.age = age;
         this.numberOfStudents = numberOfStudents;
     }
 
@@ -28,5 +29,8 @@ public class Teacher extends Human {
 
     public void printData() {
         System.out.println("Преподаватель: " + name);
+    }
+
+    public void fight() {
     }
 }
