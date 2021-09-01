@@ -18,11 +18,11 @@ public class Teacher extends UniversityPerson {
     public void teach() {
     }
 
-
-    public void printData() {
-        System.out.println("Преподаватель: " + name);
+    public void fight() {
     }
 
-    public void fight() {
+    @Override
+    public String getPosition() {
+        return "Преподаватель";
     }
 }
