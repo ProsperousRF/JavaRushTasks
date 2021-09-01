@@ -17,6 +17,7 @@ target/
 /1.JavaSyntax/
 /2.JavaCore/
 /3.JavaMultithreading/
+!/3.JavaMultithreading/src/com/javarush/task/task29/task2909/
 /4.JavaCollections/
 /5.OnlineInternship/
 /out/
