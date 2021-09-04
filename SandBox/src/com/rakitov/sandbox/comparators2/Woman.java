@@ -69,8 +69,8 @@ public class Woman {
 
   @Override
   public String toString() {
-    return String.format("%s is %d years old. Height: %d kg. Weight: %d cm. Number of " +
+    return String.format("%s is %d years old. Weight: %d kg. Height: %d cm. Number of " +
                                     "children: %d",
-                         name, age, height, weight, children);
+                         name, age, weight, height, children);
   }
 }
