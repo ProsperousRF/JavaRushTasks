@@ -13,7 +13,7 @@ target/
 *.info
 *.properties
 *.jar
-
+/SandBox/
 /1.JavaSyntax/
 /2.JavaCore/
 /3.JavaMultithreading/
@@ -25,3 +25,5 @@ target/
 /Instruction.png
 /out.log
 /out.log.*
+
+
