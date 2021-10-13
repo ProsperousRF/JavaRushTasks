@@ -8,6 +8,11 @@
 > https://javarush.ru/groups/posts/1937-klass-collections
 
 2. Какие методы есть у класса Arrays?
+> https://javarush.ru/groups/posts/1933-klass-arrays-i-ego-ispoljhzovanie
+> 
+> https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/Arrays.html
+> 
+
 3. Как называется сортировка, которая используется при вызове Collections.sort()?
 4. Что такое mutex?
 5. Что такое монитор?
