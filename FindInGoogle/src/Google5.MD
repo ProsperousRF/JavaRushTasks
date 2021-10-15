@@ -14,6 +14,8 @@
 > 
 
 3. Как называется сортировка, которая используется при вызове Collections.sort()?
+> https://javarush.ru/groups/posts/1580-urovenjh-26-otvetih-na-voprosih-k-sobesedovaniju-po-teme-urovnja-chastjh-1-voprosih-1-5-10
+> 
 4. Что такое mutex?
 5. Что такое монитор?
 6. Какие есть атомарные типы?
