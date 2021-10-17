@@ -17,6 +17,8 @@
 > Реализация является адаптированным вариантом сортировки списка для Python Тима Петерса (TimSort).
 > 
 4. Что такое mutex?
+> https://javarush.ru/groups/posts/2174-v-chem-raznica-mezhdu-mjhjuteksom-monitorom-i-semaforom
+> 
 5. Что такое монитор?
 6. Какие есть атомарные типы?
 7. Какие классы есть в канкаренси?
