@@ -32,6 +32,10 @@
 > http://java-online.ru/concurrent-atomic.xhtml
 
 7. Какие классы есть в канкаренси?
+ https://javarush.ru/groups/posts/1582-urovenjh-26-otvetih-na-voprosih-k-sobesedovaniju-po-teme-urovnja-chastjh-2-voprosih-6-9-11-12
+ 
+ https://habr.com/ru/company/luxoft/blog/157273/
+
 8. Что такое «happens-before»?
 9. Что такое «барьер» в канкаренси?
 10. Нагуглить 5 различных классов из канкаренси.
