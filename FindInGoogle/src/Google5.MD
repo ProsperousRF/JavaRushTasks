@@ -37,5 +37,7 @@
  https://habr.com/ru/company/luxoft/blog/157273/
 
 8. Что такое «happens-before»?
+> https://www.youtube.com/watch?v=PP1Ac_PDlCM
+> 
 9. Что такое «барьер» в канкаренси?
 10. Нагуглить 5 различных классов из канкаренси.
