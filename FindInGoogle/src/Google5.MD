@@ -40,4 +40,6 @@
 > https://www.youtube.com/watch?v=PP1Ac_PDlCM
 > 
 9. Что такое «барьер» в канкаренси?
+> https://habr.com/ru/post/277669/
+> 
 10. Нагуглить 5 различных классов из канкаренси.
