@@ -43,3 +43,4 @@
 > https://habr.com/ru/post/277669/
 > 
 10. Нагуглить 5 различных классов из канкаренси.
+> https://habr.com/ru/company/luxoft/blog/157273/
